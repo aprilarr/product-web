@@ -40,7 +40,7 @@ const ProductListComponent = () => {
             <h1 className="title has-text-centered mt-5">Product List</h1>
             <div className="columns mt-5 is-centered">
                 <Link to={`create`} className="button is-success mr-3">Create Product</Link>
-                <Link to={`approval`} className="button is-warning">List Product Pending</Link>
+                <Link to={`approval`} className="button is-warning">List Product Pending (Need Approval)</Link>
                 <div className="column is-half">
                     <table className="table is-striped is-fullwidth">
                         <thead>
